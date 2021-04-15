@@ -9,7 +9,10 @@ const onClickAdd = () => {
 
   const li = document.createElement("li");
   li.innerText = inputText;
-  console.log(li);
+
+  div.appendChild(li);
+
+  document.getElementById("incomplete-list").appendChild(div);
 };
 
 document
